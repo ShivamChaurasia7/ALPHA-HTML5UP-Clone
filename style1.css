@@ -1,0 +1,410 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./assets/images/banner.jpg);
+    background-size: 100% 690px;
+    /* background-position: -1px 0px; */
+    background-repeat: no-repeat;
+    background-color:whitesmoke;
+}
+
+
+#HeaderSection{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.667);
+    margin-top: 18px;
+    
+}
+ 
+#LogoDiv{
+    /* width: 30%; */
+    display: inline;
+    font-size: 12px;
+}
+
+
+#LogoDiv h1{
+    display: inline;
+    font-size: 17px;
+    margin-left: 15px; 
+}
+
+
+#LogoDiv h1 span{
+    font-weight: 100;
+}
+
+#OptionDiv{
+    /* width: 70%; */
+    display: inline;
+    /* margin-left: 70%; */
+
+}
+
+#OptionDiv ul{
+    display: inline;
+    /* float: right; one approach */
+    
+    /* 2nd approach
+    position: absolute;
+    right: 0;
+    top: 0; */
+     
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+#OptionDiv li{
+    display: inline;
+    margin-right: 46px;
+}
+
+#SignUp{
+    border: 2px solid white;
+    padding: 5px 18px;
+    border-radius: 5px;
+    color: white;  
+    font-weight: 600;
+}
+
+/* Body Section Starts Here */
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#BodySection h1{
+    font-size: 58px;
+    font-weight: 500;
+    color: white;
+}
+
+#BodySection p{
+    font-size: 21px;
+    margin-top: -30px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 300;
+}
+
+#BodySection ul{
+    margin-top: 35px;
+}
+
+#BodySection ul li{
+    display: inline;
+    font-size: 19px;
+    border: 2.5px solid rgba(255, 255, 255, 0.373);
+    border-radius: 5px;
+    padding: 12px 60px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#Sign{
+    color: gray;
+    background-color: white;
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+#LearnMore{
+    font-weight: 600; 
+}
+
+#LearnMore:hover{
+ background: rgba(255, 255, 255, 0.099);
+ transition: ease-in-out .2s;
+}
+/* Body Section End Here */
+
+/* ------------------------------------------------------------------ */
+
+/* Descrp Section Start Here */
+#DescripSection{
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 6px;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+
+#DescripSection h1{
+    font-size: 38px;
+    padding-top: 81px;
+    padding-bottom: 10px;
+    color: #8a8a8a;
+}
+
+#DescripSection p{
+    font-size: 23px;
+    padding-top: 47px;
+    border-top: 1px solid #747474;
+    display: inline-block;
+}
+
+#DescripSection img{
+    width: 100%;
+    margin-top: 60px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+/* 
+#intro{
+    color: rgba(71, 70, 70, 0.811);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 260%;
+    line-height: 1.7em;
+    padding: 60px 0px;
+}
+
+#para{
+    font-size: 1.25em;
+    line-height: 1.5em;
+} */
+
+#DescripSection img{
+    width: 100%;
+}
+
+
+/* Descrp Section End Here */
+
+/* Icon Section Start Here */
+#IconSection{
+    border: 1px solid white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#IconDiv1{
+    /* border: 2px solid chartreuse; */
+    padding-left: 10px;
+}
+
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 70px;
+    color: #454545;
+    padding-bottom: 25px;
+}
+
+#IconSection div i{
+    /* border: 2px solid forestgreen; */
+    font-size: 35px;
+    border-radius:100%;
+    color: white;
+}
+
+.fa-bolt{
+    padding: 30px;
+    border-radius: 100%;
+    background-color: #e89980;
+    border: 2px solid #e89980;
+}
+
+.fa-chart-area{
+    padding: 30px;
+    border-radius: 100%;
+    background-color: #7fcdb8;
+    border: 2px solid #7fcdb8;
+}
+
+.fa-cloud{
+    padding: 30px 25px;
+    border-radius: 100%;
+    background-color: #90b0ba;
+    border: 2px solid #90b0ba;
+}
+
+.fa-lock{
+    padding: 30px;
+    border-radius: 100%;
+    background-color: #e5cb95;
+    border: 2px solid #e5cb95;
+}
+
+#IconSection div h1{
+    font-size: 30px;  
+}
+
+#IconSection div:nth-child(1){
+    border-right: 1px solid #747474;
+    /* background-color: blueviolet; */
+}
+
+#IconSection div:nth-child(2){
+    border-bottom: 1px solid #747474;
+}
+
+#IconSection div:nth-child(3){
+    border-top: 1px solid #747474;
+    /* border-right: 1px solid #747474; */
+}
+
+#IconSection div:nth-child(4){
+    border-left: 1px solid #747474;
+}
+
+#IconSection div p{
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 33px;
+}
+/* Icon Section End Here */
+
+
+/* Nature Section Start Here */
+#NatureSection{
+    /* border: 1px solid chartreuse; */
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 35px;
+    /* margin-bottom: 80px; */
+}
+
+#NatureSection div:nth-child(1){
+    margin-right: 45px;
+}
+
+#NatureSection div{
+    width: 47.5%;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    color: #747474;
+    padding-bottom: 60px;
+}
+
+#NatureSection div img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+}
+
+#NatureSection div h1{
+    font-size: 28px;
+}
+
+#NatureSection div p{
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 55px;
+}
+
+#NatureSection div a{
+    border: 2px solid #747474;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 900;
+}
+/* Nature Section End Here */
+
+/* Footer Section Start Here */
+/* #FooterSection{
+    border: 2px solid brown;
+} */
+
+#FooterDiv1{
+    /* border: 1px solid chartreuse; */
+    text-align: center;
+    background-color: #ef8b6d;
+    color: whitesmoke;
+    width: 100%;
+    margin-top: 100px;
+    height: 320px;
+}
+
+#FooterDiv1 h1{
+    font-size: 2.25em;
+    line-height: 1.5em;
+    letter-spacing: -0.035em;
+    /* font-size: 36px; */
+    padding-top: 60px;
+    font-weight: 100;
+}
+
+#FooterDiv1 p{
+    /* margin: 0 0 2em 0; */
+    font-size: 20px;
+}
+
+#FooterDiv1 form{
+    margin-top: 40px;
+}
+
+#FooterDiv1 form input{
+    padding: 20px 75px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eba893;
+    margin-right: 25px;
+}
+
+#FooterDiv1 form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#FooterDiv1 form button{
+    background: white;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 15px;
+}
+
+#FooterDiv2{
+    text-align: center;
+    color: #c6c6c6;
+}
+
+#SocialMedia i{
+    font-size: 35px;
+    margin: 0px 18px;
+    margin-top: 60px;
+}
+
+#FooterDiv2 div ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 23px 0px 60px 0px;
+}
+
+#FooterDiv2 div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+}
+
+#FooterDiv2 div ul li:nth-child(2){
+    border-right: 1px solid #c6c6c6;
+}
+
+/* #FooterDiv1 input[type="email"]{
+    color: black;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+    padding: 18px 45px;
+    margin-right: 90px;
+    border-radius: 5px;
+    border: none;
+} */
+
+#FooterDiv1 button{
+    box-shadow: none;
+    background: #fff;
+    color: #e89980;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+/* Footer Section End Here */
